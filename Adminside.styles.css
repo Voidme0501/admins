@@ -844,17 +844,18 @@ body[b-qgm68por72] {
 
 /* Button styling */
 .login-btn[b-qgm68por72] {
-    width: 100%;
-    padding: 14px;
+    width: auto;
+    min-width: 70px;
+    padding: 6px 12px;
     border: none;
-    border-radius: 12px;
+    border-radius: 8px;
     background: linear-gradient(135deg, #6f37ae 0%, #9333ea 100%);
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 8px;
+    margin-top: 4px;
     position: relative;
     overflow: hidden;
 }
@@ -1071,6 +1072,32 @@ input[type="checkbox"]:focus[b-qgm68por72] {
     padding: 2px 4px;
     font-size: 12px;
     white-space: nowrap;
+}
+
+/* Add spacing below the passage table and between controls */
+.card .form-group.mt-3[b-qgm68por72] {
+    margin-top: 18px;
+}
+.card .form-group.mt-2[b-qgm68por72] {
+    margin-top: 10px;
+}
+.card .d-flex.gap-2[b-qgm68por72] {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .row > .col-md-6[b-qgm68por72] {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+    .d-flex.gap-2[b-qgm68por72] {
+        flex-direction: column;
+        align-items: stretch;
+    }
 }
 /* /Pages/Administratoraccount.razor.rz.scp.css */
 body[b-8ya855howj], .container.teacherlist-container[b-8ya855howj], .teacher-table[b-8ya855howj], .teacher-table th[b-8ya855howj], .teacher-table td[b-8ya855howj], .print-btn[b-8ya855howj], .close-btn[b-8ya855howj], .pagination-btn[b-8ya855howj], .pagination-info[b-8ya855howj], .modal-content[b-8ya855howj], .password-only[b-8ya855howj], .search-box[b-8ya855howj] {
