@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Adminside",
   "resources": {
-    "hash": "sha256-V6Bl7210sYqMSpHtQQtmGYqg/UmQ2+RMsT2mEPq4b9g=",
+    "hash": "sha256-vps43QkVHz8n6KdwCF3blSao1al+v0DUv5dBZq1L3Yc=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-nVB+IIrEMZyzYc18/q6Ztgcx9N4PFM4b0KiWbViPINI="
     },
@@ -18,7 +18,7 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "Adminside.wasm": "sha256-pqbbNsWn3zLzMR6F1iaLyyfxgAQvLR9/XDnYNvXBS7A=",
+      "Adminside.wasm": "sha256-7YdcZhov/fRZW07knIDxP30axsUy7aKd5AW0EI4t/GA=",
       "Blazored.LocalStorage.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-COcDA4nmnpr6ebiYI2lBbSTt3ELLb9xj2Xv8qE2vbm8=",
       "Microsoft.AspNetCore.Components.Authorization.wasm": "sha256-oNYnrEF3jqn5FfqDBue4Glj4w7GtScTXSR2j3NdkfbM=",
