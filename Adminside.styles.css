@@ -904,7 +904,9 @@ body[b-qgm68por72] {
 
 .table th[b-qgm68por72],
 .table td[b-qgm68por72] {
-    padding: 12px;
+    padding: 4px 6px;
+    font-size: 13px;
+    white-space: nowrap;
     vertical-align: top;
     border-top: 1px solid #E5E7EB;
 }
@@ -1054,12 +1056,21 @@ input[type="checkbox"]:focus[b-qgm68por72] {
 /* Responsive horizontal scroll for table */
 .active-assessments-table-wrapper[b-qgm68por72] {
     width: 100%;
-    overflow-x: auto;
+    overflow-x: visible;
 }
 
 /* Compact rows */
 .table-active-assessments tr[b-qgm68por72] {
     height: 38px;
+}
+
+.table th[b-qgm68por72],
+.table td[b-qgm68por72],
+.table-active-assessments th[b-qgm68por72],
+.table-active-assessments td[b-qgm68por72] {
+    padding: 2px 4px;
+    font-size: 12px;
+    white-space: nowrap;
 }
 /* /Pages/Administratoraccount.razor.rz.scp.css */
 body[b-8ya855howj], .container.teacherlist-container[b-8ya855howj], .teacher-table[b-8ya855howj], .teacher-table th[b-8ya855howj], .teacher-table td[b-8ya855howj], .print-btn[b-8ya855howj], .close-btn[b-8ya855howj], .pagination-btn[b-8ya855howj], .pagination-info[b-8ya855howj], .modal-content[b-8ya855howj], .password-only[b-8ya855howj], .search-box[b-8ya855howj] {
