@@ -2010,6 +2010,115 @@ h3[b-vcjiqvwzyn] {
   }
   .hide-on-print[b-q4g21jk0qm] { display: none !important; }
 } 
+
+.custom-division-bar-chart[b-q4g21jk0qm] {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow-x: auto; /* Allow horizontal scrolling for many divisions */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+.division-bar-header[b-q4g21jk0qm] {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+.division-bar-row[b-q4g21jk0qm] {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-bottom: 1px dashed #eee;
+}
+.division-bar-label[b-q4g21jk0qm] {
+    width: 150px; /* Fixed width for division labels */
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #555;
+}
+.bar-group[b-q4g21jk0qm] {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+.bar[b-q4g21jk0qm] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%; /* Ensure bars take full width of their group */
+    height: 100%; /* Ensure bars take full height of their group */
+    position: relative;
+}
+.bar-segment[b-q4g21jk0qm] {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+    transition: height 0.3s ease;
+}
+.bar-segment.frustration[b-q4g21jk0qm] {
+    background-color: #f44336; /* Red for frustration */
+    height: 0%;
+}
+.bar-segment.instructional[b-q4g21jk0qm] {
+    background-color: #4CAF50; /* Green for instructional */
+    height: 0%;
+}
+.bar-segment.independent[b-q4g21jk0qm] {
+    background-color: #2196F3; /* Blue for independent */
+    height: 0%;
+}
+.bar-value[b-q4g21jk0qm] {
+    position: absolute;
+    top: -25px; /* Adjust position to be above the bar */
+    font-size: 0.8em;
+    color: #555;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.bar-tooltip[b-q4g21jk0qm] {
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    z-index: 1000;
+    pointer-events: none; /* Allow clicks to pass through */
+}
+.division-bar-legend[b-q4g21jk0qm] {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+.legend-box[b-q4g21jk0qm] {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+.legend-box.frustration[b-q4g21jk0qm] {
+    background-color: #f44336;
+}
+.legend-box.instructional[b-q4g21jk0qm] {
+    background-color: #4CAF50;
+}
+.legend-box.independent[b-q4g21jk0qm] {
+    background-color: #2196F3;
+} 
 /* /Pages/HeadsList.razor.rz.scp.css */
 body[b-1w9sovq1dn], .container.teacherlist-container[b-1w9sovq1dn], .teacher-table[b-1w9sovq1dn], .teacher-table th[b-1w9sovq1dn], .teacher-table td[b-1w9sovq1dn], .print-btn[b-1w9sovq1dn], .close-btn[b-1w9sovq1dn], .pagination-btn[b-1w9sovq1dn], .pagination-info[b-1w9sovq1dn], .modal-content[b-1w9sovq1dn], .password-only[b-1w9sovq1dn], .search-box[b-1w9sovq1dn] {
     font-family: 'Quicksand', sans-serif !important;
