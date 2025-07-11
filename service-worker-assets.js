@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "Nwl1wLeX",
+  "version": "pl8t7wlN",
   "assets": [
     {
       "hash": "sha256-13hjTN+TlJ/oVKH32dv8V332EX4G07FWYGygaXmTppQ=",
@@ -306,7 +306,7 @@ self.assetsManifest = {
       "url": "js/bluetoothprinter.js"
     },
     {
-      "hash": "sha256-hoL6FdJFNMWGvgK8BNPdtDZ4m/WS9137nLpZmsF8YJ0=",
+      "hash": "sha256-DVKySk2XhVhczG8/9geDNqy2DwWfOmAHHke9KGv81Jk=",
       "url": "js/exportDashboard.js"
     },
     {

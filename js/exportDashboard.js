@@ -8,6 +8,7 @@ window.downloadDashboardPdf = async function () {
     var sectionIds = [
         'dashboard-content', // summary and stats
         'tally-table-section', // comprehension level tally table
+        'division-bar-chart-section', // <-- ADD THIS to include the chart
         'grade-level-section', // grade level analysis
         'top-learners-section' // top performing students
     ];
