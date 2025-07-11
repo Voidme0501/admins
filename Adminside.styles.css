@@ -2837,6 +2837,37 @@ h3[b-vcjiqvwzyn] {
         font-size: 0.85em;
     }
 } 
+
+/* --- Responsive Division Label, One Line, Ellipsis --- */
+.lang-label-vertical[b-q4g21jk0qm] {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    word-break: break-word;
+    max-width: 120px;
+    min-width: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.division-bar-x-group-vertical[b-q4g21jk0qm] {
+    overflow-x: auto;
+}
+@media (max-width: 900px) {
+    .lang-label-vertical[b-q4g21jk0qm] {
+        font-size: 0.85em;
+        max-width: 70px;
+        min-width: 36px;
+    }
+}
+/* Responsive font-size for many divisions */
+.division-bar-x-group-vertical[data-division-count="10"] .lang-label-vertical[b-q4g21jk0qm] { font-size: 0.95em; }
+.division-bar-x-group-vertical[data-division-count="15"] .lang-label-vertical[b-q4g21jk0qm] { font-size: 0.85em; }
+.division-bar-x-group-vertical[data-division-count="20"] .lang-label-vertical[b-q4g21jk0qm] { font-size: 0.75em; } 
 /* /Pages/HeadsList.razor.rz.scp.css */
 body[b-1w9sovq1dn], .container.teacherlist-container[b-1w9sovq1dn], .teacher-table[b-1w9sovq1dn], .teacher-table th[b-1w9sovq1dn], .teacher-table td[b-1w9sovq1dn], .print-btn[b-1w9sovq1dn], .close-btn[b-1w9sovq1dn], .pagination-btn[b-1w9sovq1dn], .pagination-info[b-1w9sovq1dn], .modal-content[b-1w9sovq1dn], .password-only[b-1w9sovq1dn], .search-box[b-1w9sovq1dn] {
     font-family: 'Quicksand', sans-serif !important;
