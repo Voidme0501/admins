@@ -2793,6 +2793,50 @@ h3[b-vcjiqvwzyn] {
         gap: 6px;
     }
 } 
+
+/* --- Split Card Layout for English/Filipino --- */
+.division-bar-row-split[b-q4g21jk0qm] {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.division-bar-col-split[b-q4g21jk0qm] {
+    flex: 1 1 0;
+    min-width: 320px;
+    max-width: 600px;
+    padding: 0 8px;
+}
+/* Remove/override old .mini-groups-vertical, .division-x-label-vertical */
+.mini-groups-vertical[b-q4g21jk0qm], .division-x-label-vertical[b-q4g21jk0qm] {
+    display: none !important;
+}
+.lang-label-vertical[b-q4g21jk0qm] {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    word-break: break-word;
+    max-width: 120px;
+}
+@media (max-width: 900px) {
+    .division-bar-row-split[b-q4g21jk0qm] {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .division-bar-col-split[b-q4g21jk0qm] {
+        max-width: 100%;
+        min-width: 0;
+        padding: 0;
+    }
+    .lang-label-vertical[b-q4g21jk0qm] {
+        font-size: 0.85em;
+    }
+} 
 /* /Pages/HeadsList.razor.rz.scp.css */
 body[b-1w9sovq1dn], .container.teacherlist-container[b-1w9sovq1dn], .teacher-table[b-1w9sovq1dn], .teacher-table th[b-1w9sovq1dn], .teacher-table td[b-1w9sovq1dn], .print-btn[b-1w9sovq1dn], .close-btn[b-1w9sovq1dn], .pagination-btn[b-1w9sovq1dn], .pagination-info[b-1w9sovq1dn], .modal-content[b-1w9sovq1dn], .password-only[b-1w9sovq1dn], .search-box[b-1w9sovq1dn] {
     font-family: 'Quicksand', sans-serif !important;
