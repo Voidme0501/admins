@@ -2736,6 +2736,63 @@ h3[b-vcjiqvwzyn] {
         min-width: 36px;
     }
 } 
+
+/* --- English/Filipino Separate Containers --- */
+.mini-groups-vertical[b-q4g21jk0qm] {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.english-container-vertical[b-q4g21jk0qm], .filipino-container-vertical[b-q4g21jk0qm] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 70px;
+    padding: 8px 10px 0 10px;
+    border-radius: 8px;
+    background: #f8fafc;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.english-container-vertical[b-q4g21jk0qm] {
+    border: 2px solid #1976d2;
+    margin-right: 8px;
+}
+.filipino-container-vertical[b-q4g21jk0qm] {
+    border: 2px solid #43a047;
+    margin-left: 8px;
+}
+.bar-pair-language-vertical[b-q4g21jk0qm] {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 12px;
+    margin-bottom: 2px;
+}
+/* Remove/override old mini-group-language-vertical, bar-group-vertical */
+.mini-group-language-vertical[b-q4g21jk0qm], .bar-group-vertical[b-q4g21jk0qm] {
+    display: none !important;
+}
+.y-axis-tick-vertical[b-q4g21jk0qm] {
+    height: 28px;
+    display: block;
+    text-align: right;
+    font-size: 0.95em;
+    color: #888;
+}
+@media (max-width: 900px) {
+    .mini-groups-vertical[b-q4g21jk0qm] {
+        gap: 12px;
+    }
+    .english-container-vertical[b-q4g21jk0qm], .filipino-container-vertical[b-q4g21jk0qm] {
+        min-width: 36px;
+        padding: 4px 2px 0 2px;
+    }
+    .bar-pair-language-vertical[b-q4g21jk0qm] {
+        gap: 6px;
+    }
+} 
 /* /Pages/HeadsList.razor.rz.scp.css */
 body[b-1w9sovq1dn], .container.teacherlist-container[b-1w9sovq1dn], .teacher-table[b-1w9sovq1dn], .teacher-table th[b-1w9sovq1dn], .teacher-table td[b-1w9sovq1dn], .print-btn[b-1w9sovq1dn], .close-btn[b-1w9sovq1dn], .pagination-btn[b-1w9sovq1dn], .pagination-info[b-1w9sovq1dn], .modal-content[b-1w9sovq1dn], .password-only[b-1w9sovq1dn], .search-box[b-1w9sovq1dn] {
     font-family: 'Quicksand', sans-serif !important;
