@@ -1,12 +1,12 @@
 self.assetsManifest = {
-  "version": "sFGWns2s",
+  "version": "mz7B4OD1",
   "assets": [
     {
       "hash": "sha256-13hjTN+TlJ/oVKH32dv8V332EX4G07FWYGygaXmTppQ=",
       "url": "ADMI1.png"
     },
     {
-      "hash": "sha256-zFBxWgNO2t6gsqRJbt/tNJBvH44SjyZqZzQgpaemLPU=",
+      "hash": "sha256-IX19paRxkW/OxLYPM8KFI3q4cHAQ/7WNSQFk8cRbKIw=",
       "url": "Adminside.styles.css"
     },
     {

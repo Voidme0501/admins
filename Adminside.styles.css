@@ -2051,20 +2051,21 @@ h3[b-vcjiqvwzyn] {
 }
 .bar[b-q4g21jk0qm] {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%; /* Ensure bars take full width of their group */
-    height: 100%; /* Ensure bars take full height of their group */
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 40px;
+    height: 120px;
+    margin: 0 8px;
     position: relative;
+    background: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
 }
 .bar-segment[b-q4g21jk0qm] {
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-radius: 5px;
-    transition: height 0.3s ease;
+    transition: height 0.3s;
+    border-radius: 0;
 }
 .bar-segment.frustration[b-q4g21jk0qm] {
     background-color: #f44336; /* Red for frustration */
