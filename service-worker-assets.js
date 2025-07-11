@@ -1,12 +1,12 @@
 self.assetsManifest = {
-  "version": "mz7B4OD1",
+  "version": "ywabndXG",
   "assets": [
     {
       "hash": "sha256-13hjTN+TlJ/oVKH32dv8V332EX4G07FWYGygaXmTppQ=",
       "url": "ADMI1.png"
     },
     {
-      "hash": "sha256-IX19paRxkW/OxLYPM8KFI3q4cHAQ/7WNSQFk8cRbKIw=",
+      "hash": "sha256-iskgGoqtdExbgsjSbZyZnXDi/vdG5uXAuKnLKAvLD9c=",
       "url": "Adminside.styles.css"
     },
     {
@@ -22,7 +22,7 @@ self.assetsManifest = {
       "url": "_content/MudBlazor/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-JAUZCpFsyzirfS16X/DIs7XPhQciYbunl6HhZCCyOPk=",
+      "hash": "sha256-yZA/iK1QO0qQAXuRn7Hmxq3iXbdOlOTEkazuFfrfctg=",
       "url": "_framework/Adminside.wasm"
     },
     {
@@ -162,7 +162,7 @@ self.assetsManifest = {
       "url": "_framework/System.Linq.Expressions.wasm"
     },
     {
-      "hash": "sha256-vFt3EOHdnEeoY3FfNocadVgZsQkMGmSv5RB9Knh0nQk=",
+      "hash": "sha256-tn9e5oawtIeCP32QFGgQC6XV7EDV9Fe8zykIk6gA4AY=",
       "url": "_framework/System.Linq.wasm"
     },
     {
@@ -230,7 +230,7 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-T+AS7DuAUZHn82r1N9fxcZGz4ERmT+YzsuOjZSuKvj4=",
+      "hash": "sha256-fyxRf0+nl89qd5pNAfMoBMLGfRo1tnoAmoLiZUdS7Rs=",
       "url": "_framework/blazor.boot.json"
     },
     {
