@@ -2635,6 +2635,79 @@ h3[b-vcjiqvwzyn] {
         font-size: 0.85em;
     }
 } 
+
+/* --- New English/Filipino Column Layout --- */
+.lang-pair-group-vertical[b-q4g21jk0qm] {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.lang-col-vertical[b-q4g21jk0qm] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    min-width: 60px;
+}
+.bar-with-label-vertical[b-q4g21jk0qm] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.bar-number-vertical[b-q4g21jk0qm] {
+    font-size: 1em;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 2px;
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+    border-radius: 4px;
+    min-width: 24px;
+}
+/* Remove/override old bar-value-vertical */
+.bar-value-vertical[b-q4g21jk0qm] {
+    display: none !important;
+}
+.bar-label-vertical[b-q4g21jk0qm] {
+    display: block;
+    text-align: center;
+    font-size: 0.92em;
+    color: #888;
+    margin-top: 2px;
+    min-width: 48px;
+}
+.lang-label-vertical[b-q4g21jk0qm] {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+.division-x-label-vertical[b-q4g21jk0qm] {
+    margin-top: 8px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #444;
+    text-align: center;
+    word-break: break-word;
+    max-width: 120px;
+}
+@media (max-width: 900px) {
+    .lang-pair-group-vertical[b-q4g21jk0qm] {
+        gap: 8px;
+    }
+    .lang-col-vertical[b-q4g21jk0qm] {
+        min-width: 36px;
+    }
+    .bar-label-vertical[b-q4g21jk0qm], .lang-label-vertical[b-q4g21jk0qm], .division-x-label-vertical[b-q4g21jk0qm] {
+        font-size: 0.85em;
+    }
+} 
 /* /Pages/HeadsList.razor.rz.scp.css */
 body[b-1w9sovq1dn], .container.teacherlist-container[b-1w9sovq1dn], .teacher-table[b-1w9sovq1dn], .teacher-table th[b-1w9sovq1dn], .teacher-table td[b-1w9sovq1dn], .print-btn[b-1w9sovq1dn], .close-btn[b-1w9sovq1dn], .pagination-btn[b-1w9sovq1dn], .pagination-info[b-1w9sovq1dn], .modal-content[b-1w9sovq1dn], .password-only[b-1w9sovq1dn], .search-box[b-1w9sovq1dn] {
     font-family: 'Quicksand', sans-serif !important;
